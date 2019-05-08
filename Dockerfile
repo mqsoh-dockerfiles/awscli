@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.6-stretch
 
 RUN apt-get update && \
     apt-get install --assume-yes --no-install-recommends groff && \
